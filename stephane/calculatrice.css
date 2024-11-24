@@ -1,0 +1,139 @@
+ body{
+   background-color: rgb(207, 166, 151); 
+ }
+
+.container{
+    border: 1px solid;
+    height: 500px;
+    width: 340px;
+    border-color: black;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px 2px black;
+    margin-left: 35%;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+#bute{
+    width: 120px;
+}
+
+.groupe1-container{
+    border: 5px solid;
+    height: 100px;
+    width: 300px;
+    border-color: black;
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 4%;
+    background-color: white;
+    border-radius: 10px;
+}
+#result{
+    position: relative;
+    margin-left:0%;
+    margin-top: -10%;
+    color: rgb(252, 252, 255);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 295px;
+    border-radius: 1px;
+    height: 95px;
+    cursor: all-scroll;
+    resize: none;
+    background-color: darkgray;
+    justify-content: center;
+}
+#resultat{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 200px;
+    color: blue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button{
+    font-size: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 5px white;
+}
+button:hover{
+    scale: 1.4;
+}
+.div-boutton1 :last-child{
+    color:tomato
+}
+
+.groupe2-container{
+    border: 5px solid;
+    height:325px;
+    width: 300px;
+    border-color: black;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+.div-boutton4{
+    margin-top: 80%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 10%;
+}
+.div-boutton3{
+    position: absolute;
+    margin-top: 11%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 20px;
+}
+.div-boutton2{
+    position: absolute;
+    margin-top: 6%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 20px;
+}
+.div-boutton1{
+    position: absolute;
+    margin-top: 1%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 20px;
+}
+
+@media  (min-width:320px) and (max-width:500px){
+    .container{
+        margin-left: 2px;
+        background-color: brown;
+        height: 600px;
+        margin-top: 20%;
+    }
+    button{
+        font-size: 50px;
+    }
+    button:hover{
+        scale: 2px;
+    }
+    .div-boutton3{
+        margin-top: 62%;
+        margin-left: 10px;
+    }
+    .div-boutton2{
+        margin-top: 34%;
+        margin-left: 10px;
+    }
+    .div-boutton1{
+        margin-left: 10px;
+        margin-top: 5%;
+    }
+    .div-boutton4{
+        margin-left: 10px;
+        margin-top: 110%;
+    }
+    .groupe2-container{
+        height: 420px;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculatrice.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       <div class="groupe1-container">
+          <p id="resultat"></p>
+          <textarea name="" id="result"></textarea>
+         
+       </div>
+       <div class="groupe2-container">
+        <div class="div-boutton1">
+            <button onclick="check('7')"id="but">7</button>
+            <button onclick="check('8')" id="but">8</button>
+            <button onclick="check('9')" id="but">9</button>
+            <button onclick="check('0')" id="but">0</button>
+            <button onclick="Ac()"style="color: red;" id="but">C</button>
+        </div>
+        <div class="div-boutton2">
+            <button onclick="check('4')"id="but">4</button>
+            <button onclick="check('5')"id="but">5</button>
+            <button onclick="check('6')"id="but">6</button>
+            <button onclick="check('*')"id="but">*</button>
+            <button onclick="check('/')" style="margin-left: 15px;">/</button>
+        </div>
+        <div class="div-boutton3">
+            <button onclick="check('1')"id="but">1</button>
+            <button  onclick="check('2')"id="but">2</button>
+            <button onclick="check('3')"id="but">3</button>
+            <button onclick="check('+')"id="but">+</button>
+            <button onclick="check('-')"id="but" style="margin-left: 15px;">-</button>
+        </div>
+        <div class="div-boutton4">
+            <button onclick="DEL()"id="bute">DEL</button>
+            <div class="ope">
+                <button onclick="check('.')"id="but" style="background-color: chartreuse; width: 31px; color: black;">.</button>
+                <button onclick="egale()"id="but" style="background-color: chartreuse; width: 45px; margin-left: 15px; color: black;">=</button>
+            </div>
+
+        </div>
+       </div>
+    </div>
+    <script src="calculatrice.js">
+
+
+    
+
+
+    </script>
+</body>
+</html>
